@@ -1,1 +1,5 @@
 (John, Doe, select SHA2(CONCAT(SELECT SUBSTRING(SHA2(RAND()), 1, 6), 'password')), L6X2N8)
+
+
+
+SELECT SHA2('SUBSTR("24562243245454"), 1, 4)',256) AS mock;
