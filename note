@@ -1,0 +1,1 @@
+(John, Doe, select SHA2(CONCAT(SELECT SUBSTRING(SHA2(RAND()), 1, 6), 'password')), L6X2N8)
